@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.10" />
+    </ItemGroup>
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\_ValidationScriptsPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Selam\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Selam\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Selam\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Selam\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Selam\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\InternshipForm\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\InternshipForm\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\InternshipForm\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\InternshipForm\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\InternshipForm\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\profile-pictures\7a3a1b63-6484-4ca4-bfac-c393c2499cb0.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\profile-pictures\98ab5d28-0a77-4cf3-a743-e60fecb7eb8b.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\profile-pictures\b0e1c80d-aeea-48df-99a9-60f663a828ca.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\internship-acceptance-forms\bb186fa2-fd6a-4b28-ade2-f22c8befdb8f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\sgk-eligibility-certificates\bb186fa2-fd6a-4b28-ade2-f22c8befdb8f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\profile-pictures\e9734817-5caf-4fcb-acd3-b7de219d3932.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\application-forms\bb186fa2-fd6a-4b28-ade2-f22c8befdb8f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\application-forms\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\criminal-record-certificates\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\identification-cards\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\internship-acceptance-forms\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\residence-certificates\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\sgk-eligibility-certificates\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\user\work-accident-and-occupational-disease-insurance-forms\04ae09cc-72fb-48a4-a98e-543ec6f2d47f.jpg" />
+    </ItemGroup>
+    <ItemGroup>
+      <AdditionalFiles Include="Views\InternshipFormAdmin\Delete.cshtml" />
+      <AdditionalFiles Include="Views\InternshipFormAdmin\Details.cshtml" />
+      <AdditionalFiles Include="Views\InternshipFormAdmin\Index.cshtml" />
+      <AdditionalFiles Include="Views\WorkHistoryAdmin\Details.cshtml" />
+      <AdditionalFiles Include="Views\WorkHistoryAdmin\Index.cshtml" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Managers\" />
+      <Folder Include="Migrations\" />
+    </ItemGroup>
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\Selam\Create.cshtml" />
+      <UpToDateCheckInput Remove="Views\Selam\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Views\Selam\Details.cshtml" />
+      <UpToDateCheckInput Remove="Views\Selam\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Views\Selam\Index.cshtml" />
+    </ItemGroup>
+</Project>

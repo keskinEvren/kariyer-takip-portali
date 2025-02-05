@@ -1,0 +1,47 @@
+@model IEnumerable<KariyerTakip.Models.WorkHistory>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Student
+                @* @Html.DisplayNameFor(model => model.UserId) *@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a class="btn btn-outline-secondary" asp-controller="User" asp-action="Details" asp-route-id="@item.User.Id">@item.User.FirstName @item.User.LastName</a>
+            </td>
+            @* <td> *@
+            @*     @Html.DisplayFor(modelItem => item.UserId) *@
+            @* </td> *@
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

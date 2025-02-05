@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <p>Welcome, Admin! You can manage user roles and all progress here.</p>
+
+    <main>
+        <h3>Admin Dashboard</h3>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fatih Sultan Mehmet Vakıf Üniversitesi | All Rights Reserved</p>
+    </footer>
+}
+else if (User.IsInRole("Teacher"))
+{
+    <p>Welcome, Teacher! You can manage student internships and review their progress here.</p>
+
+    <main>
+        <h3>Teacher Dashboard</h3>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fatih Sultan Mehmet Vakıf Üniversitesi | All Rights Reserved</p>
+    </footer>
+}
+else if (User.IsInRole("Student"))
+{
+    <!DOCTYPE html>
+    <html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FSMVÜ Staj Bilgilendirme</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+
+            header {
+                color: black;
+                text-align: center;
+            }
+
+            main {
+                padding: 20px;
+                max-width: 800px;
+                margin: auto;
+                background: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+
+            h1, h2, h3 {
+                color: black;
+            }
+
+            ul {
+                padding: 0 20px;
+            }
+
+            a {
+                color: #0066cc;
+                text-decoration: none;
+            }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+
+            .button {
+                display: inline-block;
+                margin: 10px 0;
+                padding: 10px 15px;
+                background-color: #004080;
+                color: white;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+
+                .button:hover {
+                    background-color: #0059b3;
+                }
+
+            footer {
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>Fatih Sultan Mehmet Vakıf Üniversitesi</h1>
+            <h2>Mühendislik Fakültesi</h2>
+        </header>
+
+        <main>
+            <h3>FSMVÜ Staj Genel Bilgiler</h3>
+            <ul>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/MF-staj_genel_esaslari2020-01-08-03-33-15pm.docx">FSMVÜ Mühendislik Fakültesi Staj Genel Esasları</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/BLM2024-06-07-10-00-12pm.pdf">FSMVÜ Bilgisayar Mühendisliği Staj Esasları</a></li>
+                <li><a href="https://ym.fsm.edu.tr/Yazilim-Muhendisligi-Bolumu-Egitim-Staj--Staj-Esaslari">FSMVÜ Yazılım Mühendisliği Staj Esasları</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/INM_Staj_Esaslari_20242024-06-12-11-13-42am.pdf">FSMVÜ İnşaat Mühendisliği Staj Esasları</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/20240606_EEM_Staj_Esalari2024-06-10-08-57-01pm.pdf">FSMVÜ Elektrik Elektronik Mühendisliği Staj Esasları</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/BME_Staj_Esaslari2020-02-07-01-02-03pm.docx">FSMVÜ Biyomedikal Mühendisliği Staj Esasları</a></li>
+
+            </ul>
+
+            <h3>Staj için Gerekli Belgeler</h3>
+            <ul>
+                <li>1 adet Başvuru Formu (Staj yapılacak kurum tarafından imzalı ve onaylı).</li>
+                <li>3 adet fotoğraflı Staj Kabul Formu (Staj yapılacak kurum tarafından imzalı ve onaylı).</li>
+                <li>Kimlik Fotokopisi.</li>
+                <li>İkametgah Belgesi (E-Devlet'ten alınabilir).</li>
+                <li>SGK Müstehaklık Belgesi (E-Devlet'ten alınabilir).</li>
+                <li>Sabıka Kaydı (Savcılık Belgesi - E-Devlet'ten alınabilir).</li>
+                <li>İş Kazası ve Meslek Hastalıkları Sigorta Formu.</li>
+            </ul>
+
+            <h3>İlgili Formlar</h3>
+            <ul>
+                <li><a href="https://kalite.fsm.edu.tr/upload/e0.fr-032-muhendislik-fakultesi-staj-basvuru-formu-1-2020-07-18-13-11-50.doc" class="button">BLM Staj Başvuru Formu</a></li>
+                <li><a href="https://kalite.fsm.edu.tr/upload/e1.fr-026-staj-kabul-formu-enst-muh-mim-myo-gsmyo-1-2020-07-18-13-04-57.doc" class="button">BLM Staj Kabul Formu</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/3-1_IS_KAZASI_VE_MESLEK_HASTALIKLARI_SIGORTA_FORMU_-_UNIVERSITE_GENELI2023-06-06-05-51-21pm.doc" class="button">İş Kazası ve Meslek Hastalıkları Sigorta Formu</a></li>
+                <li><a href="https://kalite.fsm.edu.tr/upload/e0.fr-039-muhendislik-fakultesi-staj-defteri-1-2020-07-18-13-18-28.doc" class="button">BLM Staj Defteri</a></li>
+                <li><a href="https://kalite.fsm.edu.tr/upload/e0.fr-037-muhendislik-fakultesi-staj-degerlendirme-formu-1-2020-07-18-13-16-43.doc" class="button">BLM Staj Değerlendirme Formu</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/I02021-03-10-05-06-49pm.FR-264-ZORUNLU_STAJ_GEREKLILIGI_VE_SGK_ODEME_YUKUMLULUGU_FORMU2021-03-10-05-06-49pm.docx" class="button">FSMVÜ Zorunlu Staj Gerekliliği ve SGK Ödeme Yükümlülüğü Yazısı</a></li>
+                <li><a href="https://www.fsm.edu.tr/resim/Dosya/StajDiyagram_v22019-05-21-04-04-46pm2022-03-08-12-04-38pm-donusturuldu2022-03-09-11-18-41am.pdf" class="button">Staj Akış Diyagramı</a></li>
+            </ul>
+        </main>
+
+    </body>
+    <footer>
+        <p>&copy; 2025 Fatih Sultan Mehmet Vakıf Üniversitesi | Tüm Hakları Saklıdır</p>
+    </footer>
+    </html>
+
+}

@@ -1,0 +1,365 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KariyerTakip.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KariyerTakip.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\application-forms\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\application-forms\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\application-forms\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\application-forms\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\application-forms\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\application-forms\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\criminal-record-certificates\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\criminal-record-certificates\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\criminal-record-certificates\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\criminal-record-certificates\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\criminal-record-certificates\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\criminal-record-certificates\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\identification-cards\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\identification-cards\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\identification-cards\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\identification-cards\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\identification-cards\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\identification-cards\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\internship-acceptance-forms\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\internship-acceptance-forms\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\internship-acceptance-forms\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\internship-acceptance-forms\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\internship-acceptance-forms\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\internship-acceptance-forms\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\profile-pictures\\107ba14c-bdd3-48e0-8d53-5ac2bdd1e272.jpeg",
+      "PackagePath": "staticwebassets\\user\\profile-pictures\\107ba14c-bdd3-48e0-8d53-5ac2bdd1e272.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\profile-pictures\\11a6483e-e8a5-4f9e-9402-8e0ba7e07111.jpg",
+      "PackagePath": "staticwebassets\\user\\profile-pictures\\11a6483e-e8a5-4f9e-9402-8e0ba7e07111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\profile-pictures\\3ba9abe0-896a-4742-a8b2-2c98cdb2ed23.jpeg",
+      "PackagePath": "staticwebassets\\user\\profile-pictures\\3ba9abe0-896a-4742-a8b2-2c98cdb2ed23.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\profile-pictures\\3bfe294d-3de3-453b-895c-8aea4a3f31f8.jpg",
+      "PackagePath": "staticwebassets\\user\\profile-pictures\\3bfe294d-3de3-453b-895c-8aea4a3f31f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\residence-certificates\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\residence-certificates\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\residence-certificates\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\residence-certificates\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\residence-certificates\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\residence-certificates\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\sgk-eligibility-certificates\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\sgk-eligibility-certificates\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\sgk-eligibility-certificates\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\sgk-eligibility-certificates\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\sgk-eligibility-certificates\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\sgk-eligibility-certificates\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\work-accident-and-occupational-disease-insurance-forms\\62988a55-ec00-4b21-b80e-dc568b678108.pdf",
+      "PackagePath": "staticwebassets\\user\\work-accident-and-occupational-disease-insurance-forms\\62988a55-ec00-4b21-b80e-dc568b678108.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\work-accident-and-occupational-disease-insurance-forms\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf",
+      "PackagePath": "staticwebassets\\user\\work-accident-and-occupational-disease-insurance-forms\\76b4b3a7-9b9a-4730-8f50-bf53415dab92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Evren\\Desktop\\KariyerTakip\\KariyerTakip\\KariyerTakip\\wwwroot\\user\\work-accident-and-occupational-disease-insurance-forms\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf",
+      "PackagePath": "staticwebassets\\user\\work-accident-and-occupational-disease-insurance-forms\\c1351b6a-39b7-49bb-9688-527a91700ca9.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KariyerTakip.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KariyerTakip.props",
+      "PackagePath": "build\\KariyerTakip.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KariyerTakip.props",
+      "PackagePath": "buildMultiTargeting\\KariyerTakip.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KariyerTakip.props",
+      "PackagePath": "buildTransitive\\KariyerTakip.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

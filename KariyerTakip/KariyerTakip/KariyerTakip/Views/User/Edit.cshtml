@@ -1,0 +1,201 @@
+@using Microsoft.AspNetCore.Identity
+@model AuthenticationAndAuthorization.Models.User
+@inject UserManager<User> UserManager
+
+@{
+    ViewData["Title"] = "Edit";
+    var user = await UserManager.FindByIdAsync(Model.Id.ToString());
+    var userRoles = user != null ? await UserManager.GetRolesAsync(user) : new List<string>();
+    var departments = new List<SelectListItem>
+    {
+        new SelectListItem()
+        {
+            Value = "Bilgisayar Mühendisliği",
+            Text = "Bilgisayar Mühendisliği",
+        },
+        new SelectListItem()
+        {
+            Value = "Biyomedikal Mühendisliği",
+            Text = "Biyomedikal Mühendisliği",
+        },
+        new SelectListItem()
+        {
+            Value = "Elektrik-Elektronik Mühendisliği",
+            Text = "Elektrik-Elektronik Mühendisliği",
+        },
+        new SelectListItem()
+        {
+            Value = "İnşaat Mühendisliği",
+            Text = "İnşaat Mühendisliği",
+        },
+        new SelectListItem()
+        {
+            Value = "Yazılım Mühendisliği",
+            Text = "Yazılım Mühendisliği",
+        }
+    };
+}
+
+<h1>Edit</h1>
+
+<h4>User</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id"/>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control"/>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control"/>
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            @* <div class="form-group"> *@
+            @*     <label asp-for="UserName" class="control-label"></label> *@
+            @*     <input asp-for="UserName" class="form-control" /> *@
+            @*     <span asp-validation-for="UserName" class="text-danger"></span> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="NormalizedUserName" class="control-label"></label> *@
+            @*     <input asp-for="NormalizedUserName" class="form-control" /> *@
+            @*     <span asp-validation-for="NormalizedUserName" class="text-danger"></span> *@
+            @* </div> *@
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            @* <div class="form-group"> *@
+            @*     <label asp-for="NormalizedEmail" class="control-label"></label> *@
+            @*     <input asp-for="NormalizedEmail" class="form-control" /> *@
+            @*     <span asp-validation-for="NormalizedEmail" class="text-danger"></span> *@
+            @* </div> *@
+            @* <div class="form-group form-check"> *@
+            @*     <label class="form-check-label"> *@
+            @*         <input class="form-check-input" asp-for="EmailConfirmed" /> @Html.DisplayNameFor(model => model.EmailConfirmed) *@
+            @*     </label> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="PasswordHash" class="control-label"></label> *@
+            @*     <input asp-for="PasswordHash" class="form-control" /> *@
+            @*     <span asp-validation-for="PasswordHash" class="text-danger"></span> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="SecurityStamp" class="control-label"></label> *@
+            @*     <input asp-for="SecurityStamp" class="form-control" /> *@
+            @*     <span asp-validation-for="SecurityStamp" class="text-danger"></span> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="ConcurrencyStamp" class="control-label"></label> *@
+            @*     <input asp-for="ConcurrencyStamp" class="form-control" /> *@
+            @*     <span asp-validation-for="ConcurrencyStamp" class="text-danger"></span> *@
+            @* </div> *@
+            <div class="form-group">
+                <label asp-for="MyPhoneNumber" class="control-label"></label>
+                <input asp-for="MyPhoneNumber" class="form-control"/>
+                <span asp-validation-for="MyPhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TcNo" class="control-label"></label>
+                <input asp-for="TcNo" class="form-control"/>
+                <span asp-validation-for="TcNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudentId" class="control-label"></label>
+                <input asp-for="StudentId" class="form-control"/>
+                <span asp-validation-for="StudentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Department" class="control-label"></label>
+                <select asp-for="Department" asp-items="@departments" class="form-control"></select>
+                <span asp-validation-for="Department" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control"/>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            @* <div class="form-group form-check"> *@
+            @*     <label class="form-check-label"> *@
+            @*         <input class="form-check-input" asp-for="PhoneNumberConfirmed" /> @Html.DisplayNameFor(model => model.PhoneNumberConfirmed) *@
+            @*     </label> *@
+            @* </div> *@
+            @* <div class="form-group form-check"> *@
+            @*     <label class="form-check-label"> *@
+            @*         <input class="form-check-input" asp-for="TwoFactorEnabled" /> @Html.DisplayNameFor(model => model.TwoFactorEnabled) *@
+            @*     </label> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="LockoutEnd" class="control-label"></label> *@
+            @*     <input asp-for="LockoutEnd" class="form-control" /> *@
+            @*     <span asp-validation-for="LockoutEnd" class="text-danger"></span> *@
+            @* </div> *@
+            @* <div class="form-group form-check"> *@
+            @*     <label class="form-check-label"> *@
+            @*         <input class="form-check-input" asp-for="LockoutEnabled" /> @Html.DisplayNameFor(model => model.LockoutEnabled) *@
+            @*     </label> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="AccessFailedCount" class="control-label"></label> *@
+            @*     <input asp-for="AccessFailedCount" class="form-control" /> *@
+            @*     <span asp-validation-for="AccessFailedCount" class="text-danger"></span> *@
+            @* </div> *@
+            <div class="form-group">
+                <label for="profilePicture">Upload Profile Picture</label>
+                <input type="file" id="profilePicture" name="profilePicture" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="col-md-4">
+            <h4>Assign Role</h4>
+            <form id="assignRoleForm" asp-action="AssignRole" asp-controller="User" method="post">
+                <input type="hidden" asp-for="Id"/>
+                <div class="container">
+                    <label for="role" name="roles" class="control-label">Select Role</label>
+                    <select class="selectpicker" id="role" multiple aria-label="size 3 select example">
+                        <option value="Admin" selected="@userRoles.Contains("Admin")">Admin</option>
+                        <option value="Teacher" selected="@userRoles.Contains("Teacher")">Teacher</option>
+                        <option value="Student" selected="@userRoles.Contains("Student")">Student</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Assign Role" class="btn btn-secondary"/>
+                </div>
+            </form>
+        </div>
+    }
+</div>
+
+@if (User.IsInRole("Admin") || User.IsInRole("Teacher"))
+{
+    <div>
+        <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+    </div>
+}
+<script>
+    document.getElementById('assignRoleForm').addEventListener('submit', function () {
+        var selectedRoles = [];
+        document.querySelectorAll('#role option:checked').forEach(function (option) {
+            selectedRoles.push(option.value);
+        });
+
+        // Add selected roles to hidden inputs
+        if (selectedRoles.length > 0) {
+            var rolesInput = document.createElement('input');
+            rolesInput.type = 'hidden';
+            rolesInput.name = 'roles';  // This matches the parameter name in the controller
+            rolesInput.value = selectedRoles.join(',');  // Join the roles as a comma-separated string
+            this.appendChild(rolesInput);
+        }
+    });
+</script>

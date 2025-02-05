@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KariyerTakip", "KariyerTakip\KariyerTakip.csproj", "{FDAA2C94-E03F-4469-A850-1AAB92687075}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDAA2C94-E03F-4469-A850-1AAB92687075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAA2C94-E03F-4469-A850-1AAB92687075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAA2C94-E03F-4469-A850-1AAB92687075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAA2C94-E03F-4469-A850-1AAB92687075}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

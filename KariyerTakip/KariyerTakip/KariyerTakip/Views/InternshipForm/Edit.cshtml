@@ -1,0 +1,119 @@
+@model KariyerTakip.Models.InternshipForm
+
+@{
+    ViewData["Title"] = "Edit";
+    var selam = Model;
+}
+
+<h1>Edit</h1>
+
+<h4>InternshipForm</h4>
+<hr />
+<div class="row">
+    @if (ViewData["Error"] is not null)
+    {
+    <div class="alert alert-danger" role="alert">
+        @ViewData["Error"]
+    </div>
+    }
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id"/>
+            <div class="form-group">
+                <label asp-for="Company" class="control-label"></label>
+                <input asp-for="Company" class="form-control"/>
+                <span asp-validation-for="Company" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control"/>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Industry" class="control-label"></label>
+                <input asp-for="Industry" class="form-control"/>
+                <span asp-validation-for="Industry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DurationInDays" class="control-label"></label>
+                <input asp-for="DurationInDays" class="form-control"/>
+                <span asp-validation-for="DurationInDays" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control"/>
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WebURLOfCompany" class="control-label"></label>
+                <input asp-for="WebURLOfCompany" class="form-control"/>
+                <span asp-validation-for="WebURLOfCompany" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailOfCompany" class="control-label"></label>
+                <input asp-for="EmailOfCompany" class="form-control"/>
+                <span asp-validation-for="EmailOfCompany" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control"/>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DoesCompanyWorkOnSaturday"/> @Html.DisplayNameFor(model => model.DoesCompanyWorkOnSaturday)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="MentorFullname" class="control-label"></label>
+                <input asp-for="MentorFullname" class="form-control"/>
+                <span asp-validation-for="MentorFullname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MentorTitle" class="control-label"></label>
+                <input asp-for="MentorTitle" class="form-control"/>
+                <span asp-validation-for="MentorTitle" class="text-danger"></span>
+            </div>
+            @if ((bool)Model.IsApproved && !(bool)Model.IsSucessfullyFinished)
+            {
+                <div class="form-group">
+                    <label for="ApplicationForm">Başvuru formu</label>
+                    <input type="file" id="profilePicture" name="ApplicationForm" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="InternshipAcceptanceForm">Staj Kabul Formu</label>
+                    <input type="file" id="InternshipAcceptanceForm" name="InternshipAcceptanceForm" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="IdentificationCard">Kimlik Fotokopisi</label>
+                    <input type="file" id="IdentificationCard" name="IdentificationCard" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="ResidenceCertificate">İkametgah Belgesi</label>
+                    <input type="file" id="ResidenceCertificate" name="ResidenceCertificate" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="SGKEligibilityCertificate">SGK Müstehaklık Belgesi</label>
+                    <input type="file" id="SGKEligibilityCertificate" name="SGKEligibilityCertificate" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="CriminalRecordCertificate">Sabıka Kaydı </label>
+                    <input type="file" id="CriminalRecordCertificate" name="CriminalRecordCertificate" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="WorkAccidentAndOccupationalDiseaseInsuranceForm">İş Kazası ve Meslek Hastalıkları Sigorta Formu</label>
+                    <input type="file" id="WorkAccidentAndOccupationalDiseaseInsuranceForm" name="WorkAccidentAndOccupationalDiseaseInsuranceForm" class="form-control"/>
+                </div>
+            }
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+</div>
+
