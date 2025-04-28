@@ -1,6 +1,4 @@
-# Trading App Project
-
-This project is a trading application that includes three different roles: student, teacher, and admin. Each role has its own unique screens and functionalities. The project features PDF upload and viewing capabilities, as well as allowing students to apply for internships and teachers to approve these applications.
+# Kariyer Takip Portali
 
 ## Roles and Functionalities
 
